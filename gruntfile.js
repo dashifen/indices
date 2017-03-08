@@ -24,13 +24,13 @@ module.exports = function(grunt) {
 					expand: true,
 					cwd: "node_modules/html5-boilerplate-npm/css",
 					src: "main.css",
-					dest: "includes/styles/min/third-party",
+					dest: "includes/styles/min/",
 					ext: ".min.css"
 				}, {
 					expand: true,
 					cwd: "node_modules/normalize.css/",
 					src: "normalize.css",
-					dest: "includes/styles/min/third-party",
+					dest: "includes/styles/min/",
 					ext: ".min.css"
 				}, {
 					expand: true,
@@ -48,8 +48,8 @@ module.exports = function(grunt) {
 			},
 			dist: {
 				src: [
-					"includes/styles/min/third-party/normalize.min.css",
-					"includes/styles/min/third-party/main.min.css",
+					"includes/styles/min/normalize.min.css",
+					"includes/styles/min/main.min.css",
 					"includes/styles/min/styles.min.css"
 				],
 

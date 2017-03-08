@@ -1,23 +1,27 @@
 {
-	"name": "indices",
-	"description": "A small app to show index card like notes during a speech and slide between them.",
-	"author": "David Dashifen Kees <dashifen@dashifen.com>",
-	"version": "1.0.0",
-	"private": true,
-	"dependencies": {
-		"slick-carousel": "^1.6.0",
-		"vue": "^2.2"
-	},
-	"devDependencies": {
-		"autoprefixer": "^6.3.6",
-		"grunt": "^1.0.1",
-		"grunt-contrib-concat": "^1.0.1",
-		"grunt-contrib-cssmin": "^1.0.1",
-		"grunt-contrib-uglify": "^1.0.1",
-		"grunt-contrib-watch": "^1.0.0",
-		"grunt-postcss": "^0.8.0",
-		"grunt-sass": "^1.2.0",
-		"html5-boilerplate-npm": "^4.1.0-B",
-		"normalize.css": "^4.1.1"
-	}
+  "name": "indices",
+  "description": "A small app to show index card like notes during a speech and slide between them.",
+  "author": "David Dashifen Kees <dashifen@dashifen.com>",
+  "version": "1.0.0",
+  "babel": {
+
+  },
+  "dependencies": {
+    "slick-carousel": "^1.6.0",
+    "vue": "^2.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.2.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^1.2.0",
+    "html5-boilerplate-npm": "^4.1.0-B",
+    "normalize.css": "^4.1.1"
+  }
 }

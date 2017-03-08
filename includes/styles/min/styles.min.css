@@ -1,0 +1,1 @@
+html,body{height:100%;overflow:hidden}body{font-family:"Droid Sans", sans-serif;line-height:1.5}#cards{display:-ms-flexbox;display:flex;height:100%}.card{-ms-flex:1;flex:1;padding:3rem}.card .header{font-weight:bold;font-size:40px}.card .content,.card .point{font-size:25px}
